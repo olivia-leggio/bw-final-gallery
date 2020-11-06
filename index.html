@@ -12,6 +12,9 @@
     <meta name = "description" content = "final web gallery for DOCST115S, Intro to Black and White Photography">
 </head>
 <body>
+    <div id = "overlay">
+        <img id = "overImg" src = "static/img/large/1.jpg">
+    </div>
     <header>
         <h1>Olivia Leggio</h1>
     </header>
@@ -20,8 +23,10 @@
         <header>
             <h3>Ganesh set</h3>
         </header>
-        <div class = "images">
-            <!---->
+        <div class = "imageSet">
+            <img class = "imgThumb thumbVert" src = "static/img/thumbnails/1.jpg" data-full = "static/img/large/1.jpg" data-num = "1" onclick = "showFull('1')">
+            <img class = "imgThumb thumbVert" src = "static/img/thumbnails/2.jpg" data-full = "static/img/large/2.jpg" data-num = "2" onclick = "showFull('2')">
+            <img class = "imgThumb thumbHoriz" src = "static/img/thumbnails/3.jpg" data-full = "static/img/large/3.jpg" data-num = "3">
         </div>
     </section>
 
@@ -29,7 +34,7 @@
         <header>
             <h3>Abstractions of Nature and Artifice</h3>
         </header>
-        <div class = "images">
+        <div class = "imageSet">
             <!---->
         </div>
     </section>
@@ -38,11 +43,11 @@
         <header>
             <h3>Three Portraits</h3>
         </header>
-        <div class = "images">
+        <div class = "imageSet">
             <!---->
         </div>
     </section>
-    
+
     <footer>
         <p>olivia.leggio@duke.edu fall 2020</p>
     </footer>

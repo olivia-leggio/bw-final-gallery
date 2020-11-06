@@ -6,6 +6,46 @@ html, body {
     font-family: sans-serif;
 }
 
-h1 {
+h1, h3 {
     text-align: center;
+}
+
+.imageSet {
+    align-content: center;
+    padding-left: 8.5%;
+    padding-right: 5%;
+}
+
+.imgThumb {
+    margin: 2%;
+    display: inline-block;
+}
+img:hover {
+    cursor: pointer;
+}
+
+.thumbHoriz {
+    position: fixed;
+    top: 23%;
+}
+
+.thumbVert {
+    padding-left: 69px;
+    padding-right: 69px;
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: #282828;
+    z-index: 2;
+}
+#overImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 99%;
+    max-height: 95%;
 }
