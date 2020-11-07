@@ -13,7 +13,7 @@ function showFull(num) {
     image.setAttribute("data-num", num);
 
     document.getElementById("progTxt").innerHTML = `${num} of 13`;
-    document.getElementById("set1").style.display = "none";
+    document.getElementById("notOverlay").style.display = "none";
 }
 
 /*
@@ -30,5 +30,5 @@ function changeSlide(mod) {
 hides the overlay and returns to the main gallery*/
 function closeSlides() {
     document.getElementById("overlay").style.display = "none";
-    document.getElementById("set1").style.display = "block";
+    document.getElementById("notOverlay").style.display = "block";
 }
