@@ -30,12 +30,17 @@ img:hover {
 }
 
 .thumbVert {
-    margin-left: 8%;
+    margin-left: 7.5%;
     margin-right: 7%;
 }
 
-#set2Last {
-    left: 32%;
+#firstHoriz {
+    margin-left: 3.2%;
+}
+
+.rowOf2 {
+    position: relative;
+    left: 15%;
 }
 
 #mainFooter {
