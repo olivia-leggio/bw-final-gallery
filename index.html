@@ -13,7 +13,12 @@
 </head>
 <body>
     <div id = "overlay">
-        <img id = "overImg" src = "static/img/large/1.jpg">
+        <img id = "overImg" src = "static/img/large/1.jpg" data-num = "1">
+
+        <footer id = "overlayNav">
+            <p><a id = "prev" onclick = "changeSlide(-1)">&#10094;</a> <b id = "progTxt">1 of 13</b> <a id = "next" onclick = "changeSlide(1)">&#10095;</a> </p>
+        </footer>
+        <a id = "close" onclick = "closeSlides()">&#10005;</a>
     </div>
     <header>
         <h1>Olivia Leggio</h1>
@@ -24,9 +29,9 @@
             <h3>Ganesh set</h3>
         </header>
         <div class = "imageSet">
-            <img class = "imgThumb thumbVert" src = "static/img/thumbnails/1.jpg" data-full = "static/img/large/1.jpg" data-num = "1" onclick = "showFull('1')">
-            <img class = "imgThumb thumbVert" src = "static/img/thumbnails/2.jpg" data-full = "static/img/large/2.jpg" data-num = "2" onclick = "showFull('2')">
-            <img class = "imgThumb thumbHoriz" src = "static/img/thumbnails/3.jpg" data-full = "static/img/large/3.jpg" data-num = "3">
+            <img class = "imgThumb thumbVert" src = "static/img/thumbnails/1.jpg" data-full = "static/img/large/1.jpg" onclick = "showFull('1')">
+            <img class = "imgThumb thumbVert" src = "static/img/thumbnails/2.jpg" data-full = "static/img/large/2.jpg" onclick = "showFull('2')">
+            <img class = "imgThumb thumbHoriz" src = "static/img/thumbnails/3.jpg" data-full = "static/img/large/3.jpg" onclick = "showFull('3')">
         </div>
     </section>
 
@@ -35,7 +40,9 @@
             <h3>Abstractions of Nature and Artifice</h3>
         </header>
         <div class = "imageSet">
-            <!---->
+            <img class = "imgThumb thumbHoriz" src = "static/img/thumbnails/4.jpg" data-full = "static/img/large/4.jpg" onclick = "showFull('4')">
+            <img class = "imgThumb thumbHoriz" src = "static/img/thumbnails/5.jpg" data-full = "static/img/large/5.jpg" onclick = "showFull('5')">
+            <img class = "imgThumb thumbHoriz" src = "static/img/thumbnails/6.jpg" data-full = "static/img/large/6.jpg" onclick = "showFull('6')">
         </div>
     </section>
 
